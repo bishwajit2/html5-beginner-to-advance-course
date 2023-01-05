@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HTML Meter Element</title>
+</head>
+<body>
+
+<!-- 
+
+There are three part of meter bar:
+==========================================
+Lower Part:  Value between min value and low value.
+Medium Part: Value between low value and high value.
+Higher Part:  Value between high value and max value.
+
+Optimum Value:
+=========================================
+Optimum value in the lower part: The lower part is preferred; the medium part is average; the higher part is worst.
+
+Optimum value in medium part: The lower part is average; the medium part is preferred; the higher part is average.
+
+Optimum value in higher part: The lower part is worst; the medium part is average; the higher part is preferred.
+
+-->
+
+<label for="fuel">Fuel Label</label>
+<meter
+  id="fuel"
+  value="25"
+  min="0"
+  max="100"
+  low="30"
+  high="70"
+  optimum="80"
+>
+  50%
+</meter>
+
+
+
+</body>
+</html>
